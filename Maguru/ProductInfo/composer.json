@@ -18,7 +18,13 @@
   "repositories": [
     {
       "type": "composer",
-      "url": [repository url here]
+      "url": "https://github.com/wolffs/Maguru_ProductInfo"
     }
-  ]
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Maguru\\ProductInfo\\": ""
+    }
+  }
 }
