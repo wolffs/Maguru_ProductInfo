@@ -1,14 +1,10 @@
 {
   "name": "maguru/productinfo",
   "description": "Maguru ProductInfo",
+  "require": {
+  },
   "type": "magento2-module",
   "version": "0.0.1",
-  "require": {
-    "php": "~5.5.0|~5.6.0|~7.0.0",
-    "magento/framework": "~100.0.4",
-    "magento/magento-composer-installer": "*"
-  },
-  "minimum-stability": "dev",
   "extra": {
     "map": [
       [
@@ -17,16 +13,11 @@
       ]
     ]
   },
-  "repositories": [
+  "authors": [
     {
-      "type": "git",
-      "url": "https://github.com/wolffs/Maguru_ProductInfo"
+      "name": "Maguru",
+      "homepage": "",
+      "role": "Developer"
     }
-  ],
-  "autoload": {
-    "files": [ "registration.php" ],
-    "psr-4": {
-      "Maguru\\ProductInfo\\": ""
-    }
-  }
+  ]
 }
