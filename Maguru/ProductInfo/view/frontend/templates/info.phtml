@@ -1,0 +1,8 @@
+<?php if($this->getInfoItems()->getSize()): ?>
+    <dl>
+    <?php foreach($this->getInfoItems() as $row): ?>
+        <dt><?php echo $row->getTitle() ?></dt>
+        <dd><?php echo $row->getSummary() ?></dd>
+    <?php endforeach; ?>
+    </dl>
+<?php endif ?>
