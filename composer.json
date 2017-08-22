@@ -3,6 +3,7 @@
   "description": "Maguru ProductInfo",
   "require": {
   },
+  "minimum-stability": "stable",
   "type": "magento2-module",
   "version": "0.0.1",
   "extra": {
