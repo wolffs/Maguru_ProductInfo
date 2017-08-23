@@ -12,16 +12,11 @@
   "autoload": {
     "files": [
       "registration.php"
-    ]
+    ],
+    "psr-4": {
+      "Maguru\\ProductInfo\\": ""
+    }
   },
   "minimum-stability": "dev",
-  "prefer-stable": true,
-  "extra": {
-    "map": [
-      [
-        "*",
-        "Maguru/ProductInfo"
-      ]
-    ]
-  }
+  "prefer-stable": true
 }
